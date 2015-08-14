@@ -29,7 +29,10 @@ Add `storage` block to file `config.js` in each environment as below:
     },
 
 
-When using i.e. mongolab the url typically looks like: 'mongodb://myuser:mypassword@ds055662.mongolab.com:55772/heroku_lk5qqg4j'
+When using i.e. mongolab the url typically looks like:
+
+    mongodb://myuser:mypassword@ds055662.mongolab.com:55772/heroku_lk5qqg4j
+    
 
 ### License:
 Licensed under the Apache License, Version 2.0, see http://www.apache.org/licenses/LICENSE-2.0
