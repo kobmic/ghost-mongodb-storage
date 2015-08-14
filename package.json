@@ -1,0 +1,18 @@
+{
+    "name": "ghost-mongodb-storage",
+    "version": "0.0.1",
+    "description": "Module for Ghost blogging platform that allows to store images in mongodb instead of local file system.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kobmic/ghost-mongodb-storage"
+    },
+    "keywords": ["ghost", "mongodb", "blog"],
+    "author": "Michael Kober <michael.kober@jayway.com>",
+    "license": "Apache 2",
+    "homepage": "https://github.com/kobmic/ghost-mongodb-storage",
+    "dependencies": {
+        "mongoose": "~4.1.2",
+        "bluebird": "~2.9.25"
+    }
+}
