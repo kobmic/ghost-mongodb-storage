@@ -49,7 +49,7 @@ MongodbStore.prototype.init = function() {
 }
 
 // Copies of the same image will be same as new images in mongo.
-// Thus exists reolves always to false.
+// Thus exists resolves always to false.
 MongodbStore.prototype.exists = function (filename) {
     return new Promise(function (resolve) {
         resolve(false);

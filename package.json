@@ -1,7 +1,7 @@
 {
     "name": "ghost-mongodb-storage",
     "version": "0.0.1",
-    "description": "Module for Ghost blogging platform that allows to store images in mongodb instead of local file system.",
+    "description": "Custom storage module for Ghost blogging platform.",
     "main": "index.js",
     "repository": {
         "type": "git",
